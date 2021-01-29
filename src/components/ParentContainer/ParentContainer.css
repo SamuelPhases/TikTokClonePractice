@@ -1,0 +1,7 @@
+.parentContainer {
+  background-color: #fff;
+  flex: 0.7;
+  height: 580px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}

@@ -1,0 +1,14 @@
+.home {
+  background-color: #288;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.home--split {
+  display: flex;
+  width: 100%;
+  /* position: absolute; */
+  align-items: flex-start;
+  background-color: sandybrown;
+}

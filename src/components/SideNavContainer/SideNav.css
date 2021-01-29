@@ -1,0 +1,96 @@
+.sidenav {
+  /* background-color: aquamarine; */
+  flex: 0.3;
+  height: 580px;
+  overflow-y: scroll;
+}
+
+.sidenav--content {
+  background-color: darkmagenta;
+  width: 65%;
+  margin-left: auto;
+  padding: 0.5em 0.2em;
+}
+
+.sidenav--content > .sidenav--titles {
+  display: flex;
+  padding: 0.5em;
+  /* padding-left: 0.8em; */
+  align-items: center;
+  /* font-size: 1.8rem; */
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: indianred;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 0.2em;
+}
+
+.sidenav--content > .sidenav--titles > .sidenav--navIcon {
+  margin-top: 0.1em;
+  margin-right: 0.5em;
+}
+
+.sidenav--content > .line {
+  height: 1px;
+  width: 100%;
+  background-color: #e2e3e4;
+}
+
+.sidenav--suggested {
+  background-color: mediumorchid;
+  padding: 0.5em 0em;
+}
+
+.sidenav--suggested > h4 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #161823bf;
+}
+
+.sidenav--suggested > .toggle {
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+  color: #fe2c55;
+}
+
+.sidenav--suggested > .toggle > h3 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.sidenav--suggested > .toggle > .more--toggle {
+  margin-top: 0.1em;
+}
+
+.sidenav--content > .links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0.8em;
+  padding-bottom: 0.5em;
+}
+
+.sidenav--content > .links > p {
+  font-size: 0.8rem;
+  margin-right: 0.3em;
+  color: #16182380;
+  text-transform: capitalize;
+}
+
+.sidenav--content > .copy {
+  color: #16182380;
+  font-size: 0.9rem;
+  padding-bottom: 0.5em;
+}
+
+.sidenav--content > select {
+  margin: auto;
+  padding: 0.8em;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}

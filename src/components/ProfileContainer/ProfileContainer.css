@@ -1,0 +1,157 @@
+.profileContainer {
+  background-color: deeppink;
+  flex: 0.7;
+  overflow: auto;
+  height: 580px;
+}
+
+.profileContainer--content {
+  width: 90%;
+  background-color: darkblue;
+  margin: auto;
+  padding: 1em;
+}
+
+.profileContainer--header {
+  background-color: darksalmon;
+  display: flex;
+  align-items: center;
+  width: 93%;
+}
+
+.profileContainer--dp {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-color: darkgrey;
+  margin-right: 1em;
+}
+
+.report--link {
+  margin-left: auto;
+}
+
+.profileContainer--info > h3 {
+  font-size: 1.5rem;
+}
+.profileContainer--info > h4 {
+  font-weight: 500;
+}
+
+.profileContainer--info > .conditional--btn {
+  padding: 0.4em 1.2em;
+  background-color: #fff;
+  color: #161823;
+  border: 1px solid #161823;
+  border-radius: 3px;
+  width: 100%;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.profileContainer--details {
+  background-color: saddlebrown;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1em 0em;
+}
+
+.profileContainer--details > div {
+  margin-right: 1.5em;
+  background-color: plum;
+  display: flex;
+  align-items: center;
+}
+
+.profileContainer--details > div > h5 {
+  padding-right: 0.4em;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #121212bf;
+}
+
+.profileContainer--details > div > p {
+  font-weight: 400;
+  color: #121212bf;
+}
+
+.profileContainer--bio {
+  margin: 1em 0em;
+  width: 50%;
+  background-color: orangered;
+}
+
+.profileContainer--link {
+  display: flex;
+  text-decoration: none;
+  color: #161823;
+}
+
+.profileContainer--link > .rotate--link {
+  transform: rotate(330deg);
+  margin-right: 0.2em;
+}
+
+.profileContainer--activities {
+  background-color: mistyrose;
+}
+
+.profileContainer--activities > .videos--header {
+  display: flex;
+  background-color: mediumturquoise;
+  width: 100%;
+  align-items: center;
+}
+
+.profileContainer--activities > .videos--header > h3 {
+  background-color: magenta;
+  flex: 0.5;
+  text-align: center;
+  padding: 0.5em;
+  color: #12121280;
+  margin-bottom: 1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer--activities > .videos--header > h3.active {
+  color: #121212;
+  border-bottom: 2px solid #121212;
+}
+.profileContainer--activities > .videos--posted {
+  background-color: mediumpurple;
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+}
+
+.profileContainer--activities > .videos--posted > div {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  position: relative;
+}
+.profileContainer--activities > .videos--posted > div {
+  width: 250px;
+  height: 300px;
+  background-color: maroon;
+  position: relative;
+}
+
+.profileContainer--activities > .videos--posted > div > .viewers--count {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: flex;
+  color: #fff;
+}
+
+.profileContainer--activities > .videos--posted > div > .viewers--count > p {
+  font-weight: 500;
+  text-transform: uppercase;
+}
